@@ -1,0 +1,6 @@
+---
+# tasks file for ansible-role-setup_mirakurun
+- include: install-node.yml
+- include: install-pm2.yml
+- include: install-mirakurun.yml
+- include: start-mirakurun.yml

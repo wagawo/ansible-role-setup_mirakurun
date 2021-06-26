@@ -1,0 +1,3 @@
+- name: start mirakurun
+  shell: "mirakurun start"
+  become: yes

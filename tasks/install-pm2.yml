@@ -1,0 +1,5 @@
+- name: Install "pm2" node.js package.
+  community.general.npm:
+    name: pm2
+    global: yes
+  become: yes

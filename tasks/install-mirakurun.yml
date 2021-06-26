@@ -1,0 +1,17 @@
+- name: Install "mirakurun" node.js package.
+  community.general.npm:
+    name: mirakurun
+    global: yes
+    production: yes
+    unsafe_perm: yes
+    version: latest
+  become: yes
+
+- name: Install "arib-b25-stream-test" node.js package.
+  community.general.npm:
+    name: arib-b25-stream-test
+    global: yes
+    production: yes
+    unsafe_perm: yes
+    version: latest
+  become: yes
